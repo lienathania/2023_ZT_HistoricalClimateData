@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+
+<link href="MyCss.css" rel="stylesheet">
+<script src="https://unpkg.com/d3@6.7.0/dist/d3.min.js"></script>
+<script src="//d3js.org/topojson.v1.min.js"></script>
+<script src="FileSaver.js"></script>
+
+<script type="module" src="index.js"></script>
+<script type="module" src="UI.js"></script> 
+
+
+<body>
+<!-- ChinaMap -->
+<div class="box">
+  <div id="ChinaMap" class="chart">
+  </div>
+  <div class="buttonBox">
+    <button id="Drought_Btn">乾旱</button>
+    <button id="Flood_Btn">水災</button>
+    <button id="Pest_Btn">病蟲害</button>
+    <button id="Crop_Btn">作物歉收</button>
+    
+    <button id="Download_Btn">下載檔案</button>
+  </div>
+  <!-- 調整年份的slider -->
+  <div class="range">
+    <div class="range-slider">
+      <span class="range-selected"></span>
+    </div>
+
+    <div class="range-input">
+      <input type="range" class="min" min="1368" max="1911" value="1368" step="10" ">
+      <input type="range" class="max" min="1368" max="1911" value="1911" step="10" ">
+    </div>
+
+    <div class="range-price">      
+      <label for="min">Min</label>
+      <input type="number" name="min" value="1368">      
+      <label for="max">Max</label>
+      <input type="number" name="max" value="1911">      
+    </div>
+ 
+  </div> 
+
+</div>
+<!--div class="box">
+  < Rain Bar Chart >
+  <div id="Drought" class="chart"></div>
+  <div id="Rain" class="chart"></div>
+  <div id="Pest" class="chart"></div>
+  <div id="Crop" class="chart"></div>
+</div-->
+
+<div class="box">
+  <div id="subCategories" class="chart"></div>
+  
+</div>
+
+
+</body>
+</html>

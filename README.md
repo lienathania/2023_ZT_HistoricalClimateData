@@ -1,4 +1,4 @@
-![image](https://github.com/lienathania/2023_ZT_HistoricalClimateData/assets/58796848/e49833ec-adb7-4d82-8baa-2b428ca262b3)# 2023_ZT_HistoricalClimateData
+# 2023_ZT_HistoricalClimateData
 9/2023 ~ 6/2024 專題 with topic : Historical Climate Data
 
 Anything related to this 專題 will be posted here. For more important documents that are confidential will be locked with a password.
